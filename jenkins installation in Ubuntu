@@ -35,6 +35,31 @@ sudo systemctl enable jenkins ( Bootup start)
 
 
 
+Docker
+------------------------------------
+sudo apt-get update
+sudo apt install gnupg2 pass -y
+sudo apt install docker.io -y
+sudo usermod -aG docker $USER
+newgrp docker
+
+sudo sysemctl start docker
+sudo sysemctl enable docker
+sudo sysemctl status docker
+
+Docker integration with Jenkins
+-----------------------------------
+Install Docker and Docker Pipeline plugins in Jenkins server(web page)
+
+sudo usermod -a -G docker jenkins
+sudo service jenkins restart 
+sudo sysemctl daemon-reload
+sudo service docker stop 
+sudo service docker start 
+
+
+
+
 How to give sudo permissions for jenkins user in Ubuntu machine?
 ------------------------------------------------------------------
 Open a file using vi editor or gedit in ubuntu
