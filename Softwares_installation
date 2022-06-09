@@ -1,11 +1,12 @@
 Steps to install java:
 ----------------------
+sudo apt update
 sudo apt-get install default-jdk
 java -version
 
 ALTERNATE JAVA Installation :
 ------------------------------------------
-
+sudo apt update
 apt install openjdk-11-jre-headless  # version 11.0.14.1+1-0ubuntu1~20.04, or
 apt install default-jre              # version 2:1.11-72
 apt install openjdk-16-jre-headless  # version 16.0.1+9-1~20.04
@@ -15,11 +16,13 @@ apt install openjdk-13-jre-headless  # version 13.0.7+5-0ubuntu1~20.04
 
 Steps to install Maven
 ----------------------
+sudo apt update
 sudo apt install maven
 mvn -version
 
 Steps to install Git
 ----------------------
+sudo apt update
 sudo apt install git
 git --version
 git config --global user.name "JavaExpress"
