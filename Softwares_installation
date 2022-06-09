@@ -13,7 +13,9 @@ apt install openjdk-16-jre-headless  # version 16.0.1+9-1~20.04
 apt install openjdk-17-jre-headless  # version 17.0.2+8-1~20.04
 apt install openjdk-8-jre-headless   # version 8u312-b07-0ubuntu1~20.04
 apt install openjdk-13-jre-headless  # version 13.0.7+5-0ubuntu1~20.04
-
+_________________________________________________________==============================
+Sonarqube Download steps:  https://www.how2shout.com/linux/install-sonarqube-on-ubuntu-20-04-18-04-server/
+======================================
 Steps to install Maven
 ----------------------
 sudo apt update
