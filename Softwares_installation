@@ -16,6 +16,38 @@ apt install openjdk-13-jre-headless  # version 13.0.7+5-0ubuntu1~20.04
 _________________________________________________________==============================
 Sonarqube Download steps:  https://www.how2shout.com/linux/install-sonarqube-on-ubuntu-20-04-18-04-server/
 ======================================
+
+
+Follow below steps to solve problem. Its work for me.
+
+    Uninstall you maven from running environment.
+
+    Install Maven form :
+
+    wget http://www-eu.apache.org/dist/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+
+    Extract tar file using:
+
+    tar -zxvf apache-maven-3.3.9-bin.tar.gz
+
+    Now set M2_HOME in environment. Open vi /etc/profile
+
+    End of file add below lines and save file.
+
+    export M2_HOME=/opt/apache-maven-3.3.9/
+
+    export M2="$M2_HOME"bin
+
+    export PATH=$PATH:$M2
+
+    Compile this file using source /etc/profile
+
+    Your Maven home path is set. Yo can check using echo $M2_HOME command.
+
+    Run your project.
+
+------------------------------------------------------------------
+
 Steps to install Maven
 ----------------------
 sudo apt update
