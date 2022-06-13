@@ -45,6 +45,9 @@ Follow below steps to solve problem. Its work for me.
     Your Maven home path is set. Yo can check using echo $M2_HOME command.
 
     Run your project.
+    ===============================================================
+    
+    https://alibaba-cloud.medium.com/how-to-install-and-deploy-kubernetes-on-ubuntu-16-04-6769fd1646db
 
 ------------------------------------------------------------------
 
