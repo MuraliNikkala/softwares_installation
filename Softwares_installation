@@ -22,7 +22,7 @@ _________________________________________________________=======================
 
 ======================================
 
-Nexus download:  sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gzsudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+#########Nexus download:  https://www.fosstechnix.com/how-to-install-nexus-repository-on-ubuntu/
 
 -----------
 
