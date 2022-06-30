@@ -22,6 +22,10 @@ _________________________________________________________=======================
 
 ======================================
 
+Nexus download:  sudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gzsudo wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+
+-----------
+
 
 Follow below steps to solve problem. Its work for me.
 
