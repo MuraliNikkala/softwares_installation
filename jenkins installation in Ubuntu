@@ -34,6 +34,9 @@ sudo systemctl status jenkins
 sudo systemctl restart jenkins
 sudo systemctl enable jenkins ( Bootup start) 
 
+######################################################
+Link to install TomCat webpage ::::   https://linuxhint.com/install_apache_tomcat_server_ubuntu/
+########################################################
 
 
 Docker
